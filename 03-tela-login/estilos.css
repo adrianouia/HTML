@@ -1,0 +1,39 @@
+body {
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #202024;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+label {
+    color:#ffffff
+}
+
+input {
+    background-color: #121214;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0a0a0a;
+    border-radius: 5px;
+    padding: 6px;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+
+input[type="submit"] {
+    background-color: #8257e6;
+    font-weight: bold;
+    cursor:progress
+}

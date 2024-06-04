@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h2>Produtos</h2>
+    <table border="1"> <!--cria uma tabela-->
+        <thead>
+            <tr> <!--cria uma linha-->
+                <th>Código</th><!--cria uma célula de cabeçalho-->
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+             <tr>
+                <td>001</td> <!--cria uma célula para exibir um dado-->
+                <td>Notebook</td>
+                <td>R$ 2.599,99</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 999,99</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <hr>
+
+    <table border="2" width="400">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$ 2.599,99</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 999,99</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Desconto</th> <!--célula ocupará 2 linhas-->
+                <td colspan="2">CUPOM1 -R$ 10,00</td> <!--ocupará 2 colunas-->
+            </tr>
+
+            <tr>
+                <td colspan="2">CUPOM2 -R$ 12,00</td>
+            </tr>
+
+            <tr>
+                <th>Total</th>
+                <td colspan="2">R$ 3.478,98</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="center">
+                <a href="#">Finalizar Pagamento</a>
+                </td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

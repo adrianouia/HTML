@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil na Plataforma</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome" autofocus required>
+
+        <br> <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Seu e-mail" autofocus required>
+
+        <br> <br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="Sua senha" autofocus required>
+
+        <br> <br>
+
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" placeholder="99 9999-9999" autofocus required>
+
+        <br> <br>
+
+        <label for="radio"> Gênero:</label>
+        <input type="radio" id="radio" name="genero" value="m"> <label>Masculino</label>
+        <input type="radio" id="radio" name="genero" value="f"> <label>Feminino</label>
+    
+        <br> <br>
+
+        <label>Data de Nascimento:</label>
+        <input type="date">
+
+        <br> <br>
+
+        <label>País:</label>
+        <select required name="pais">
+            <option value="0">Selecione</option>
+            <option value="BR">Brasil</option> 
+            <option value="AR">Argentina</option>
+            <option value="CH">Chile</option>
+            <option value="E">EUA</option>
+            <option value="AL">Alemanha</option>
+            <option value="ES">Espanha</option>
+        </select>
+
+        <br> <br>
+
+        <label>Preferências:</label>
+        <input type="checkbox"> Música
+        <input type="checkbox"> Esporte
+        <input type="checkbox"> Tecnologia
+
+        <br> <br>
+
+        <label>Sobre:</label>
+        <textarea cols="38" rows="4" style="resize: none;"placeholder="Escreva sobre você"></textarea>
+        <br> <br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>

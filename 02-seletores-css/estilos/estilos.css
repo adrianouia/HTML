@@ -1,0 +1,25 @@
+/*Seleciona todos os elementos p */
+p {  
+    color: red;
+}
+/* # seleciona o id que só pode ser usado uma vez*/
+#paragrafo1 {
+    color: red;
+}
+/* o ponto seleciona o class que pode ser usado em qualquer elemento*/
+.texto-verde {
+    color: green;
+}
+/*Para selecionar somente um h1 com class*/
+h1.texto-verde {
+    text-align: center;
+}
+
+h1, p {
+    font-weight: normal;
+    background-color: yellow;
+}
+
+* {
+    font-size: 20px;
+}
